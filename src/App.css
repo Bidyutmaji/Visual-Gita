@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.gold-yellow{
+  background: rgb(233, 147, 41);
+  background: linear-gradient(138deg, rgba(255,147,15,1) 0%, rgba(255,249,91,1) 100%);
+}
+
+
+.green-sky{
+  background: rgb(0,255,135);
+  background: linear-gradient(133deg, rgba(0,255,135,1) 33%, rgba(96,239,255,1) 100%);
+}
