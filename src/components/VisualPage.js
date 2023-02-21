@@ -11,12 +11,11 @@ import QnAData from '../ChapterIntro/QnAData';
 
 import GitaSummary from '../ChapterIntro/GitaSummary';
 import GitaShort from '../ChapterIntro/GitaShort';
-import { Link } from 'react-router-dom';
 
 
 function VisualPage() {
   return (
-    <div className='h-full bg-white rounded-2xl p-5'>
+    <div className='h-full bg-white rounded-2xl p-5 '>
       <Router>
         <Routes>
           <Route exact path='/intro/page-1' element={<BlockQuote data={all.GuruPranam}/>}/>

@@ -127,7 +127,7 @@ export const BGthirteenToEighteen = {
         colorC:  "bg-green-400", colorN:  "bg-green-300", colorV:  "bg-green-200", colorA: "bg-green-100", colorB: "border-green-300"},
     ],
     title: "Prison House",
-    image: "https://m.media-amazon.com/images/M/MV5BNjY5ZDNmZjgtMzcxNS00NmY2LTlmNDgtZjc1NmE4MGYyZWZhL2ltYWdlXkEyXkFqcGdeQXVyNTgwNDM5OTg@._V1_.jpg",
+    image: "https://trillium-health.ca/wp-content/uploads/2020/05/CRT-Image.jpg",
     imageCaption : "The 13 to 18 chapter of Gita talks about Prison House [How we escaped it?]",
 }
 

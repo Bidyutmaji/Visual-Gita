@@ -4,20 +4,17 @@ import { IoMdCheckmarkCircleOutline, IoIosArrowRoundBack, IoIosArrowRoundForward
 import { BsArrowBarDown, BsChevronDoubleDown } from 'react-icons/bs'
 
 function GitaShort() {
-    let data = {
-        title : "Yoga"
-          
-    }
+
   return (
     <div className='flex justify-center items-center w-full h-full bg-yellow-100 rounded-xl border border-yellow-500'>
         <div className='w-[35%] h-[90%] flex flex-col  justify-center items-center'>
-            <h1 className='pb-[25px] font-semibold text-gray-800 underline underline-offset-[10px] decoration-wavy text-5xl'>{data.title}</h1>
+            <h1 className='pb-[25px] font-semibold text-gray-800 underline underline-offset-[10px] decoration-wavy text-5xl'>Yoga</h1>
             <BsArrowBarDown size={50} className='mb-5'/>
             <div className="flex ">
                 <ul className="space-y-3">
-                    <li className="px-5 py-2 bg-green-300 rounded-full border border-green-500 text-lg text-gray-900"> <GrConnect size='25' className='inline-block pr-1'/> To Connect with God and Devotees</li>
-                    <li className="px-5 py-2 bg-rose-300 rounded-full border border-rose-500 text-lg text-gray-900"> <GrLinkUp size='25' className='inline-block pr-1'/> To Linkup with Higher Consciousness</li>
-                    <li className="px-5 py-2 bg-blue-300 rounded-full border border-blue-500 text-lg text-gray-900"> <IoMdCheckmarkCircleOutline size='25' className='inline-block pr-1'/> To be Honest or True to Oneself</li>
+                    <li className="px-5 py-2 bg-green-300 rounded-full border border-green-500 text-md text-gray-900"> <GrConnect size='23' className='inline-block pr-1'/> To Connect with God and Devotees</li>
+                    <li className="px-5 py-2 bg-rose-300 rounded-full border border-rose-500 text-md text-gray-900"> <GrLinkUp size='23' className='inline-block pr-1'/> To Linkup with Higher Consciousness</li>
+                    <li className="px-5 py-2 bg-blue-300 rounded-full border border-blue-500 text-md text-gray-900"> <IoMdCheckmarkCircleOutline size='23' className='inline-block pr-1'/> To be Honest or True to Oneself</li>
                 </ul>
             </div>
         </div>

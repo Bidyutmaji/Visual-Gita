@@ -2,10 +2,10 @@ import React from 'react'
 
 function QnAData( { data }) {
     return (
-        <div className='flex flex-col justify-center items-center p-5 '>
-            <h1 className='text-center mb-9 font-semibold underline underline-offset-8 decoration-wavy text-gray-700 text-3xl '>GITA FACT</h1>
+        <div className='flex flex-col justify-center items-center px-5 '>
+            <h1 className='text-center mb-5 font-semibold underline underline-offset-8 decoration-wavy text-gray-700 text-3xl '>GITA FACT</h1>
 
-            <table className='p-3 border-2 border-blue-400 w-[80%] h-[80%] rounded-xl border-separate'>
+            <table className=' border-2 border-blue-400 w-[80%] h-[80%] rounded-xl border-separate'>
                 {data.data.map( (item, i) => {
                     let qna = item.split(':')[0]
                     return (

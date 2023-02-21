@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&display=swap');
 
 @tailwind base;
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 90%;
+}
+
+*::-webkit-scrollbar-track {
+  background: #D1D5DB;
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FDBA74;
+  border-radius: 50px;
+  /* border: 3px solid var(--primary); */
+}
 @tailwind components;
 @tailwind utilities;
+
+
 
 body {
   margin: 0;
