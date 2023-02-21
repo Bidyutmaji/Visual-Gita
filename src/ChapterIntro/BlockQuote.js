@@ -2,6 +2,8 @@ import React from 'react'
 import { TfiQuoteRight } from 'react-icons/tfi'
 
 function BlockQuote({ data }) {
+
+    console.log(window.location.pathname)
     return (
         <div className='flex items-center h-full bg-yellow-200 rounded-xl divide-x-4 divide-red-400 shadow-slate-200 shadow-xl'>
             <div className='w-[45%]'>

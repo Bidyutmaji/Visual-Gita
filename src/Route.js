@@ -1,0 +1,15 @@
+export const IntroRoute = [
+    "/intro/guru-pronam",
+    "/intro/gita-great-life",
+    "/intro/manual-of-life",
+    "/intro/clarity-of-lfe",
+    "/intro/puspose-and-important",
+    "/intro/gita-dyanam",
+    "/intro/gita-fact",
+    "/intro/gita-love-message",
+    "/intro/chapters-1-6",
+    "/intro/chapters-7-12",
+    "/intro/chapters-13-18",
+    "/intro/journey-within",
+    "/intro/back-to-godhead",
+]
