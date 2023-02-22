@@ -12,4 +12,5 @@ export const IntroRoute = [
     "/Visual-Gita/intro/chapters-13-18",
     "/Visual-Gita/intro/journey-within",
     "/Visual-Gita/intro/back-to-godhead",
+    "/Visual-Gita/intro/conclusion",
 ]

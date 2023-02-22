@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { RiMenu4Fill } from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 function BGHeader( {setSideBar, sideBar } ) {
     console.log(sideBar)
@@ -19,9 +20,11 @@ function BGHeader( {setSideBar, sideBar } ) {
         </button>
 
         <div className='flex items-center justify-center w-full'>
-            <p className='text-center text-2xl font-bold '>
-                Visual Gita
-            </p>
+            <Link to={'/'}>
+                <p className='text-center text-2xl font-bold '>
+                    Visual Gita
+                </p>
+            </Link>
         </div>
     </div>
     )

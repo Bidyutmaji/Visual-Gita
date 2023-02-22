@@ -3,7 +3,7 @@ import React from 'react'
 function GitaSummary( { data } ) {
 
     return (
-        <div className='flex justify-center items-center w-full h-full bg-yellow-100 rounded-xl'>
+        <div className='flex justify-center items-center w-full h-full  border border-rose-200 bg-yellow-200 rounded-xl'>
             <div className='w-[25%] h-[90%] flex flex-col  justify-center items-center'>
                 <h1 className='pb-[25px] font-semibold text-gray-800 underline underline-offset-8 decoration-wavy text-3xl'>{data.title}</h1>
                 <img className="w-[80%] mx-auto  rounded-2xl shadow-xl shadow-yellow-300 border border-red-400" src={data.image} />

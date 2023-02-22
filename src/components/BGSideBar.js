@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function BGSideBar() {
   return (
@@ -9,7 +10,9 @@ function BGSideBar() {
       </div>
 
       <div className='flex flex-col'>
-        <p className='border border-orange-400 py-1 my-[3px] bg-orange-300 rounded-full cursor-pointer'>Intro</p>
+        <Link to={'/Visual-Gita/intro'}>
+          <p className='border border-orange-400 py-1 my-[3px] bg-orange-300 rounded-full cursor-pointer'>Intro</p>
+          </Link>
         <p className='border border-orange-400 py-1 my-[3px] bg-orange-200 rounded-full cursor-pointer'>Chpater: 1</p>
         <p className='border border-orange-400 py-1 my-[3px] bg-orange-200 rounded-full cursor-pointer'>Chpater: 2</p>
         <p className='border border-orange-400 py-1 my-[3px] bg-orange-200 rounded-full cursor-pointer'>Chpater: 3</p>

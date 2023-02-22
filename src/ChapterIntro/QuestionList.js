@@ -7,7 +7,7 @@ function QuestionList() {
         imageCaption : ["Srila Pravupada", "Founder of ISKCON:font-light"],    
     }
     return (
-        <div className='flex items-center  h-full'>
+        <div className='flex items-center  h-full  border border-rose-200 bg-yellow-200 rounded-xl '>
             <div className='w-[40%] '>
                     <img className="w-[80%] mx-auto  rounded-2xl shadow-xl shadow-yellow-300 border-2 border-red-400" src={data.image} />
                     <div className="flex items-center justify-center mt-6 space-x-3">

@@ -9,6 +9,9 @@ import QnAData from '../ChapterIntro/QnAData';
 
 import GitaSummary from '../ChapterIntro/GitaSummary';
 import GitaShort from '../ChapterIntro/GitaShort';
+import BGChapterIndex from './BGChapterIndex';
+import { IntroRoute } from '../Route';
+import BGChapterEnd from './BGChapterEnd';
 
 
 function VisualPage() {
@@ -17,7 +20,7 @@ function VisualPage() {
 
   useEffect(() => {
     if (window.location.pathname === '/' || window.location.pathname === '/Visual-Gita/') {
-      navigate('/Visual-Gita/intro/guru-pronam')
+      navigate('/Visual-Gita/intro')
   }
   })
   
@@ -25,6 +28,7 @@ function VisualPage() {
   return (
     <div className='h-full bg-white rounded-2xl p-5 '>
         <Routes>
+          <Route exact path='/Visual-Gita/intro' element={<BGChapterIndex data={IntroRoute} chapter=' Bhagabad Gita: Intro'/>}/>
           <Route exact path='/Visual-Gita/intro/guru-pronam' element={<BlockQuote data={all.GuruPranam}/>}/>
           <Route exact path='/Visual-Gita/intro/gita-great-life' element={<BlockQuote data={all.LessonOne}/>}/>
           <Route exact path='/Visual-Gita/intro/manual-of-life' element={<BlockQuote data={all.LessonTwo}/>}/>
@@ -38,6 +42,7 @@ function VisualPage() {
           <Route exact path='/Visual-Gita/intro/chapters-13-18' element={<GitaSummary data={all.BGthirteenToEighteen}/>}/>
           <Route exact path='/Visual-Gita/intro/journey-within' element={<BlockQuote data={all.LessonFour}/>}/>
           <Route exact path='/Visual-Gita/intro/back-to-godhead' element={<BlockQuote data={all.EndPravupadBani}/>}/>
+          <Route exact path='/Visual-Gita/intro/conclusion' element={<BGChapterEnd data={all.EndConclusion}/>}/>
         </Routes>
     </div>
   )

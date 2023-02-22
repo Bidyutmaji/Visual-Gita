@@ -1,40 +1,40 @@
 export const GuruPranam = {
     image: "https://www.iskconbangalore.org/wp-content/uploads/2016/05/srila-prabhupada-103.jpg",
-    imageCaption : ["Srila Pravupada", "Founder of ISKCON:font-light"],
+    imageCaption : ["Srila Pravupada:font-medium", "Founder of ISKCON:font-light"],
 
     textTitle : "Sri Guru Pranama:text-4xl",
-    text: ["om ajnana-timirandhasya", "jnananjana-salakaya", 
-            "cakshur unmilitam yena", "tasmai sri-gurave namah:text-orange-800"],
+    text: ["om ajnana-timirandhasya", " jnananjana-salakaya ", 
+            "cakshur unmilitam yena ", "tasmai sri-gurave namah :text-orange-800"],
     textFontSize: "text-3xl"
 }
 
 export const LessonOne = {
     image:"https://mtltimes.ca/wp-content/uploads/2022/06/happy-life.jpg",
-    imageCaption : ["Great Life", "Lesson One:font-light"],
+    imageCaption : ["Great Life:font-medium", "Lesson One:font-light"],
 
     textTitle : "Gita To Great Life:text-3xl",
     text: ["Krsna is Great, Arjuna is Great, the teaching is great... Everything about the gita is Great.", 
-            "Bhagabad-Gita can thus make our life Great.:text-orange-800",],
-    textFontSize: "text-3xl"
+            " Bhagabad-Gita can thus make our life Great.:text-orange-800",],
+    textFontSize: "text-2xl"
 }
 
 export const LessonTwo = {
     image:"https://thumbs.dreamstime.com/b/user-guide-book-manual-instructions-icons-spiral-tools-165206116.jpg",
-    imageCaption : ["Manual", "Lesson Two:font-light"],
+    imageCaption : ["Manual:font-medium", "Lesson Two:font-light"],
 
     textTitle : "Manual of Life:text-3xl",
     text: ["When we know the manual of a product, we use it better. When we know ", 
-            "Gita - manual of life,:text-orange-800", "we live better "],
-    textFontSize: "text-3xl"
+            "Gita - manual of life,:text-orange-800", " we live better "],
+    textFontSize: "text-2xl"
 }
 
 export const LessonThree = {
     image:"https://sparksuccess.com/wp-content/uploads/2021/07/bigstock-On-A-White-Background-Lies-A-N-388398484-Clarity.jpg",
-    imageCaption : ["Clarity", "Lesson Three:font-light"],
+    imageCaption : ["Clarity:font-medium", "Lesson Three:font-light"],
 
     textTitle : "Clarity of Life:text-3xl",
-    text: ["Gita Takes us from Confusion to", "Clarity :text-orange-800",],
-    textFontSize: "text-4xl"
+    text: ["Gita Takes us from Confusion to", " Clarity :text-orange-800",],
+    textFontSize: "text-3xl"
 }
 
 export const GitaDhyanam = {
@@ -45,10 +45,10 @@ export const GitaDhyanam = {
 
 export const IntroQnA = {
     data: [
-        "1. How many chapters?=— 18:bg-blue-100", "2. How many verses? =— 700", "3. How many voices? =— 4:bg-blue-100",
-        "4. Which is the longest chapter? =— 18. (78 verses)", "5. Which is the shortest chapter? =— 12 & 15. (20 verses):bg-blue-100",
-        "6. When was it spoken? =— Approx. over 5120 years back", "7. Who wrote? =— Sri Vyasadeva & Lord Ganesha(write):bg-blue-100",
-        "8. Part of which scripture? =— Mahabharata, Bhisma Parva", "9. Who can read it? =— Anyone:bg-blue-100",
+        "1. How many chapters?=— 18:bg-yellow-100", "2. How many verses? =— 700", "3. How many voices? =— 4:bg-yellow-100",
+        "4. Which is the longest chapter? =— 18. (78 verses)", "5. Which is the shortest chapter? =— 12 & 15. (20 verses):bg-yellow-100",
+        "6. When was it spoken? =— Approx. over 5120 years back", "7. Who wrote? =— Sri Vyasadeva & Lord Ganesha(write):bg-yellow-100",
+        "8. Part of which scripture? =— Mahabharata, Bhisma Parva", "9. Who can read it? =— Anyone:bg-yellow-100",
         "10. Who can understand it? =— Who tries to understand if as it is..."
     ]
 }
@@ -133,19 +133,23 @@ export const BGthirteenToEighteen = {
 
 export const LessonFour = {
     image:"https://i0.wp.com/craffic.co.in/wp-content/uploads/2021/12/istockphoto-1313456479-170667a.jpg",
-    imageCaption : ["Self Discovery", "Lesson Four:font-light"],
+    imageCaption : ["Self Discovery:font-medium", "Lesson Four:font-light"],
 
-    textTitle : "Journey Within:text-3xl",
-    text: ["We might have taken to may journeys in life.", "Gita is calling us to take to the journey Within,:text-orange-800", "which when taken, we beacme Happy within.",],
-    textFontSize: "text-3xl"
+    textTitle : "Journey Within:text-2xl",
+    text: ["We might have taken to may journeys in life.", "Gita is calling us to take to the journey Within,:text-orange-800", " which when taken, we beacme Happy within.",],
+    textFontSize: "text-2xl"
 }
 
 export const EndPravupadBani = {
     image:"https://www.srilaprabhupada.co.in/images/abuout-prabhupada.jpg",
-    imageCaption : ["- Bhagabad Gita 1.23", "London, July 19, 1973:font-light"],
+    imageCaption : ["- Bhagabad Gita 1.23:font-medium", "London, July 19, 1973:font-light"],
 
     textTitle : "Back To Godhead:text-3xl",
-    text: ["Whenever Krsna says about Himself in the Bhagabad Gita,:text-orange-800", "if we accept so much, then we immeidately become fit for going back to GODEHEAD back to home."],
-    textFontSize: "text-3xl"
+    text: ["Whenever Krsna says about Himself in the Bhagabad Gita,:text-orange-800", " if we accept so much, then we immeidately become fit for going back to GODEHEAD back to home."],
+    textFontSize: "text-2xl"
 }
 
+export const EndConclusion= {
+    title: 'Conclusion',
+    text: "This Gītopaniṣad, Bhagavad-gītā, the essence of all the Upaniṣads, is just like a cow, and Lord Kṛṣṇa, who is famous as a cowherd boy, is milking this cow. Arjuna is just like a calf, and learned scholars and pure devotees are to drink the nectarean milk of Bhagavad-gītā.” (Gītā-māhātmya 6)"
+}
