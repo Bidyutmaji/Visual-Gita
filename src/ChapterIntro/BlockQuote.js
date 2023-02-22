@@ -3,9 +3,9 @@ import { TfiQuoteRight } from 'react-icons/tfi'
 
 function BlockQuote({ data }) {
     return (
-        <div className='flex items-center h-full border border-rose-200 bg-yellow-200 rounded-xl divide-x-4 divide-red-400 shadow-slate-200 shadow-xl'>
+        <div className='flex items-center h-full border border-rose-200 bg-[#FFEFD5] rounded-xl divide-x-4 divide-red-400 shadow-slate-200 shadow-xl'>
             <div className='w-[45%]'>
-                <img className="w-[80%] mx-auto  rounded-2xl shadow-xl shadow-yellow-300 border-2 border-red-400" src={data.image} />
+                <img className="w-[80%] mx-auto  rounded-2xl shadow-lg shadow-[#FF7F50] border-2 border-red-400" src={data.image} />
                 <div className="flex items-center justify-center mt-6 space-x-3">
                     <div className="flex items-center divide-x-2 divide-gray-500 ">
                         {data.imageCaption.map( (text, i) => {

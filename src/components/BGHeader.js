@@ -23,6 +23,7 @@ function BGHeader( {setSideBar, sideBar } ) {
             <Link to={'/'}>
                 <p className='text-center text-2xl font-bold '>
                     Visual Gita
+                    <span className='text-xs pl-1'>BETA</span>
                 </p>
             </Link>
         </div>

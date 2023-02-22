@@ -37,9 +37,9 @@ function VisualPage() {
           <Route exact path='/Visual-Gita/intro/gita-dyanam' element={<FullSloka data={all.GitaDhyanam}/>}/>
           <Route exact path='/Visual-Gita/intro/gita-fact' element={<QnAData data={all.IntroQnA}/>}/>
           <Route exact path='/Visual-Gita/intro/gita-love-message' element={<GitaShort/>}/>
-          <Route exact path='/Visual-Gita/intro/chapters-1-6' element={<GitaSummary data={all.BGOneToSix}/>}/>
-          <Route exact path='/Visual-Gita/intro/chapters-7-12' element={<GitaSummary data={all.BGSevenToTwelve}/>}/>
-          <Route exact path='/Visual-Gita/intro/chapters-13-18' element={<GitaSummary data={all.BGthirteenToEighteen}/>}/>
+          <Route exact path='/Visual-Gita/intro/chapters-1-to-6' element={<GitaSummary data={all.BGOneToSix}/>}/>
+          <Route exact path='/Visual-Gita/intro/chapters-7-to-12' element={<GitaSummary data={all.BGSevenToTwelve}/>}/>
+          <Route exact path='/Visual-Gita/intro/chapters-13-to-18' element={<GitaSummary data={all.BGthirteenToEighteen}/>}/>
           <Route exact path='/Visual-Gita/intro/journey-within' element={<BlockQuote data={all.LessonFour}/>}/>
           <Route exact path='/Visual-Gita/intro/back-to-godhead' element={<BlockQuote data={all.EndPravupadBani}/>}/>
           <Route exact path='/Visual-Gita/intro/conclusion' element={<BGChapterEnd data={all.EndConclusion}/>}/>

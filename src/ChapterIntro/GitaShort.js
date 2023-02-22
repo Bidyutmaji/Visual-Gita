@@ -6,7 +6,7 @@ import { BsArrowBarDown, BsChevronDoubleDown } from 'react-icons/bs'
 function GitaShort() {
 
   return (
-    <div className='flex justify-center items-center w-full h-full border border-rose-200 bg-yellow-200 rounded-xl '>
+    <div className='flex justify-center items-center w-full h-full border border-rose-200 bg-[#FFEFD5] rounded-xl '>
         <div className='w-[35%] h-[90%] flex flex-col  justify-center items-center'>
             <h1 className='pb-[25px] font-semibold text-gray-800 underline underline-offset-[10px] decoration-wavy text-5xl'>Yoga</h1>
             <BsArrowBarDown size={50} className='mb-5'/>
