@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Visual-GIta/static/css/main.56c2f64d.css",
+    "main.js": "/Visual-GIta/static/js/main.87ff0ceb.js",
+    "index.html": "/Visual-GIta/index.html",
+    "main.56c2f64d.css.map": "/Visual-GIta/static/css/main.56c2f64d.css.map",
+    "main.87ff0ceb.js.map": "/Visual-GIta/static/js/main.87ff0ceb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56c2f64d.css",
+    "static/js/main.87ff0ceb.js"
+  ]
+}
