@@ -16,10 +16,10 @@ function VisualPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (window.location.pathname == '/') {
+    if (window.location.pathname === '/' || window.location.pathname === '/Visual-GIta/') {
       navigate('/intro/guru-pronam')
   }
-  }, [])
+  })
   
 
   return (
