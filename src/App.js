@@ -1,7 +1,7 @@
 import './App.css';
 
 import {useState, useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import VisualPage from './components/VisualPage';
 import BGHeader from './components/BGHeader';
@@ -11,12 +11,12 @@ import BGFotter from './components/BGFotter';
 import { IntroRoute } from './Route'
 
 function App() {
-    const [sideBar, setSideBar] = useState(false)
+    const [sideBar, setSideBar] = useState(true)
     const [sideCLass, setSideClass] = useState('flex')
     const [nextPage, setNextPage] = useState('')
     const [previousPage, setPreviousPage] = useState('')
     const [NFButtonClick, setNFButtonClick] = useState(false)
-    
+
     console.log(NFButtonClick);
     
     
@@ -28,6 +28,7 @@ function App() {
         console.log(previousPage, path_name, nextPage)
 
         setSideClass(sideBar ? 'flex' : 'hidden')
+        console.log(sideBar, sideCLass)
         setNFButtonClick(false)
     }, [sideBar, NFButtonClick])
     

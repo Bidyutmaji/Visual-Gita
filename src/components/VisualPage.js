@@ -1,8 +1,6 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route,useNavigate } from "react-router-dom";
 import BlockQuote from '../ChapterIntro/BlockQuote';
-import CoverPage from './CoverPage';
-import TypingText from './TypingText';
 
 import * as all from '../ChapterIntro/IntroData'
 import QuestionList from '../ChapterIntro/QuestionList';
@@ -14,6 +12,16 @@ import GitaShort from '../ChapterIntro/GitaShort';
 
 
 function VisualPage() {
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (window.location.pathname == '/') {
+      navigate('/intro/guru-pronam')
+  }
+  }, [])
+  
+
   return (
     <div className='h-full bg-white rounded-2xl p-5 '>
         <Routes>

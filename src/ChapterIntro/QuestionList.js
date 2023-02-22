@@ -11,10 +11,10 @@ function QuestionList() {
             <div className='w-[40%] '>
                     <img className="w-[80%] mx-auto  rounded-2xl shadow-xl shadow-yellow-300 border-2 border-red-400" src={data.image} />
                     <div className="flex items-center justify-center mt-6 space-x-3">
-                        <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                        <div className="flex items-center divide-x-2 divide-gray-500 ">
                             {data.imageCaption.map( (text, i) => {
                                 console.log(text.split(":")[0], text.split(":")[1])
-                                return (<cite key={i} className={`px-3 text-lg font-medium ${text.split(":")[1]} text-gray-900 dark:text-white`}>
+                                return (<cite key={i} className={`px-3 text-lg font-medium ${text.split(":")[1]} text-gray-900 `}>
                                             {text.split(":")[0]}
                                         </cite>)
                             })}
