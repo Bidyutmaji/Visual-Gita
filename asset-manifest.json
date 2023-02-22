@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Visual-Gita/static/css/main.56c2f64d.css",
-    "main.js": "/Visual-Gita/static/js/main.9b8055ca.js",
+    "main.css": "/Visual-Gita/static/css/main.c687aa11.css",
+    "main.js": "/Visual-Gita/static/js/main.10922acc.js",
     "index.html": "/Visual-Gita/index.html",
-    "main.56c2f64d.css.map": "/Visual-Gita/static/css/main.56c2f64d.css.map",
-    "main.9b8055ca.js.map": "/Visual-Gita/static/js/main.9b8055ca.js.map"
+    "main.c687aa11.css.map": "/Visual-Gita/static/css/main.c687aa11.css.map",
+    "main.10922acc.js.map": "/Visual-Gita/static/js/main.10922acc.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c2f64d.css",
-    "static/js/main.9b8055ca.js"
+    "static/css/main.c687aa11.css",
+    "static/js/main.10922acc.js"
   ]
 }
