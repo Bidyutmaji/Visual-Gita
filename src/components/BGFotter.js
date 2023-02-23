@@ -12,7 +12,7 @@ function BGFotter( { previousPage, nextPage, setNFButtonClick } ) {
           </button>
         </Link>
 
-        <h1 className='text-center text=2xl font-bold  border-l-4 border-r-4 px-5 border-yellow-300'> Jai Jaipataka Swami</h1>
+        <h1 className='text-center text=2xl font-bold  border-l-4 border-r-4 px-5 border-yellow-300 text-gray-900'> Jai Jaipataka Swami</h1>
 
         <Link to={nextPage}>
           <button onClick={() => setNFButtonClick(true)} className='border-yellow-400 active:ring-4 ring-yellow-600 px-3 py-1 border-2 bg-yellow-300 rounded-full text-lg font-medium hover:bg-yellow-500'>

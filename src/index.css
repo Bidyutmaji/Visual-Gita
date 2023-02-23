@@ -11,12 +11,12 @@
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 9px;
-  height: 90%;
+  height: 81%;
 }
 
 *::-webkit-scrollbar-track {
   background: #D1D5DB;
-  border-radius: 2px;
+  border-radius: 90px;
 }
 
 *::-webkit-scrollbar-thumb {

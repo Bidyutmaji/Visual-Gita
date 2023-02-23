@@ -26,7 +26,7 @@ function VisualPage() {
   
 
   return (
-    <div className='h-full bg-white rounded-2xl p-5 '>
+    <div className='h-full bg-white rounded-2xl p-2 '>
         <Routes>
           <Route exact path='/Visual-Gita/intro' element={<BGChapterIndex data={IntroRoute} chapter=' Bhagabad Gita: Intro'/>}/>
           <Route exact path='/Visual-Gita/intro/guru-pronam' element={<BlockQuote data={all.GuruPranam}/>}/>
