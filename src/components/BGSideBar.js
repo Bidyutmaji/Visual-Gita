@@ -24,14 +24,14 @@ function BGSideBar( { chapterClick, setChapterClick } ) {
       </div>
 
       <div className='flex flex-col space-y-2'>
-        <Link  to={'/Visual-Gita/intro'}>
+        <Link  to={'/intro'}>
           <p onClick={() => handleSideMenu(chapterClick)} 
           className={`border border-orange-400 py-1 my-[3px] ${ ButtonActive === "intro" ? 'bg-orange-300' : 'bg-orange-200'} rounded-lg cursor-pointer`}>
             Intro
           </p>
         </Link>
 
-        <Link  to={'/Visual-Gita/one'}>
+        <Link  to={'/one'}>
           <p className='border border-orange-400 py-1 my-[3px] bg-orange-200 rounded-lg cursor-pointer'>Chpater: 1</p>
         </Link>
 

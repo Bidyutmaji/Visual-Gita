@@ -1,7 +1,7 @@
 import './App.css';
 
 import {useState, useEffect } from 'react'
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 import VisualPage from './components/VisualPage';
 import BGHeader from './components/BGHeader';
@@ -17,12 +17,9 @@ function App() {
     const [previousPage, setPreviousPage] = useState('')
     const [NFButtonClick, setNFButtonClick] = useState(false)
     const [chapterClick, setChapterClick] = useState(false)
-
-    console.log(routes)
-    
     
     useEffect(() => {
-        let path_name = window.location.pathname
+        let path_name = window.location.hash.split('#')[1]
         setNextPage(routes[routes.indexOf(path_name)+1])
         setPreviousPage(routes[routes.indexOf(path_name)-1])
         
