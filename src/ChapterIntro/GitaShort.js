@@ -39,7 +39,7 @@ function GitaShort() {
                     <p className='px-4 py-2 lg:px-[30px] lg:py-[25px] bg-blue-300 border border-blue-500 rounded-lg text-xl'>Knoweldge</p>
                     <BsChevronDoubleDown size={30} className='hidden lg:block font-bold text-gray-800' />
                     <BsChevronDoubleRight className='lg:hidden font-bold text-2xl lg:text-3xl mx-5 lg:mx-0 text-gray-800'/>
-                    <p className='lg:text-lg text-gray-800 text-center'>Chapter 1 to 6<br/> GYAN YOGA</p>
+                    <p className='lg:text-lg text-gray-800 text-center'>Chapter 13 to 18<br/> GYAN YOGA</p>
                 </div>
             </div>
         </div>

@@ -8,24 +8,23 @@ import BGHeader from './components/BGHeader';
 import BGSideBar from './components/BGSideBar';
 import BGFotter from './components/BGFotter';
 
-import { IntroRoute } from './Route'
+import routes from './Route'
 
 function App() {
     const [sideBar, setSideBar] = useState(false)
     const [sideCLass, setSideClass] = useState('')
-    // const [Overlay, setOverlay] = useState('')
     const [nextPage, setNextPage] = useState('translate-x-0')
     const [previousPage, setPreviousPage] = useState('')
     const [NFButtonClick, setNFButtonClick] = useState(false)
     const [chapterClick, setChapterClick] = useState(false)
 
-    console.log(chapterClick, sideCLass)
+    console.log(routes)
     
     
     useEffect(() => {
         let path_name = window.location.pathname
-        setNextPage(IntroRoute[IntroRoute.indexOf(path_name)+1])
-        setPreviousPage(IntroRoute[IntroRoute.indexOf(path_name)-1])
+        setNextPage(routes[routes.indexOf(path_name)+1])
+        setPreviousPage(routes[routes.indexOf(path_name)-1])
         
         // console.log(previousPage, path_name, nextPage)
         // console.log(chapterClick);

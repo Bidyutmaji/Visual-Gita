@@ -14,3 +14,52 @@ export const IntroRoute = [
     "/Visual-Gita/intro/back-to-godhead",
     "/Visual-Gita/intro/conclusion",
 ]
+
+export const OneRoute = [
+    "/Visual-Gita/one/mahabharat",
+    "/Visual-Gita/one/mahabharat-map",
+    "/Visual-Gita/one/sloka-1",
+    "/Visual-Gita/one/1-translate",
+    "/Visual-Gita/one/lesson-1",
+    "/Visual-Gita/one/1-2",
+    "/Visual-Gita/one/2-3",
+    "/Visual-Gita/one/4-11",
+    "/Visual-Gita/one/lesson-2",
+    "/Visual-Gita/one/sloka-12",
+    "/Visual-Gita/one/lesson-3",
+    '/Visual-Gita/intro/blew-conchshell',
+]
+
+const routes = [
+    "/Visual-Gita/intro",
+    "/Visual-Gita/intro/guru-pronam",
+    "/Visual-Gita/intro/gita-great-life",
+    "/Visual-Gita/intro/manual-of-life",
+    "/Visual-Gita/intro/clarity-of-lfe",
+    "/Visual-Gita/intro/puspose-and-important",
+    "/Visual-Gita/intro/gita-dyanam",
+    "/Visual-Gita/intro/gita-fact",
+    "/Visual-Gita/intro/gita-love-message",
+    "/Visual-Gita/intro/chapters-1-to-6",
+    "/Visual-Gita/intro/chapters-7-to-12",
+    "/Visual-Gita/intro/chapters-13-to-18",
+    "/Visual-Gita/intro/journey-within",
+    "/Visual-Gita/intro/back-to-godhead",
+    "/Visual-Gita/intro/conclusion",
+
+    "/Visual-Gita/one",
+    "/Visual-Gita/one/mahabharat",
+    "/Visual-Gita/one/mahabharat-map",
+    "/Visual-Gita/one/sloka-1",
+    "/Visual-Gita/one/1-translate",
+    "/Visual-Gita/one/lesson-1",
+    "/Visual-Gita/one/1-2",
+    "/Visual-Gita/one/2-3",
+    "/Visual-Gita/one/4-11",
+    "/Visual-Gita/one/lesson-2",
+    "/Visual-Gita/one/sloka-12",
+    "/Visual-Gita/one/lesson-3",
+    '/Visual-Gita/intro/blew-conchshell',
+]
+
+export default routes

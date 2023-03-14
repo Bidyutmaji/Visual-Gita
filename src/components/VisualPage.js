@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route,useNavigate } from "react-router
 import BlockQuote from '../ChapterIntro/BlockQuote';
 
 import * as all from '../ChapterIntro/IntroData'
+import * as one from '../ChapterOne/OneData'
 import QuestionList from '../ChapterIntro/QuestionList';
 import FullSloka from '../ChapterIntro/FullSloka';
 import QnAData from '../ChapterIntro/QnAData';
@@ -10,8 +11,10 @@ import QnAData from '../ChapterIntro/QnAData';
 import GitaSummary from '../ChapterIntro/GitaSummary';
 import GitaShort from '../ChapterIntro/GitaShort';
 import BGChapterIndex from './BGChapterIndex';
-import { IntroRoute } from '../Route';
+import { IntroRoute, OneRoute } from '../Route';
 import BGChapterEnd from './BGChapterEnd';
+import ImageTitle from '../ChapterOne/ImageTitle';
+import SlokaChat from './SlokaChat';
 
 
 function VisualPage() {
@@ -19,7 +22,8 @@ function VisualPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (window.location.pathname === '/' || window.location.pathname === '/Visual-Gita/') {
+    if (window.location.pathname === '/' || window.location.pathname === '/Visual-Gita/' ||
+    window.location.pathname === '/Visual-Gita') {
       navigate('/Visual-Gita/intro')
   }
   })
@@ -43,7 +47,26 @@ function VisualPage() {
           <Route exact path='/Visual-Gita/intro/journey-within' element={<BlockQuote data={all.LessonFour}/>}/>
           <Route exact path='/Visual-Gita/intro/back-to-godhead' element={<BlockQuote data={all.EndPravupadBani}/>}/>
           <Route exact path='/Visual-Gita/intro/conclusion' element={<BGChapterEnd data={all.EndConclusion}/>}/>
+        
+        
+        <Route exact path='/Visual-Gita/one' element={<BGChapterIndex data={OneRoute} chapter=' Bhagabad Gita: Intro'/>}/>
+        <Route exact path='/Visual-Gita/one/mahabharat' element={<ImageTitle data={one.KuruDynasty}/>}/>
+        <Route exact path='/Visual-Gita/one/mahabharat-map' element={<ImageTitle data={one.MahabharatMap}/>}/>
+        <Route exact path='/Visual-Gita/one/sloka-1' element={<BlockQuote data={one.bg1_1}/>}/>
+        <Route exact path='/Visual-Gita/one/1-translate' element={<BlockQuote data={one.bg1_1_trans}/>}/>
+        <Route exact path='/Visual-Gita/one/lesson-1' element={<BlockQuote data={one.Lesson1One}/>}/>
+        <Route exact path='/Visual-Gita/one/1-2' element={<SlokaChat data={one.One1_2}/>}/>
+        <Route exact path='/Visual-Gita/one/2-3' element={<SlokaChat data={one.One3_6}/>}/>
+        <Route exact path='/Visual-Gita/one/4-11' element={<SlokaChat data={one.One7_11}/>}/>
+        <Route exact path='/Visual-Gita/one/lesson-2' element={<BlockQuote data={one.Lesson1Two}/>}/>
+        <Route exact path='/Visual-Gita/one/sloka-12' element={<BlockQuote data={one.SlokaOne12}/>}/>
+        <Route exact path='/Visual-Gita/one/lesson-3' element={<BlockQuote data={one.Lesson1Three}/>}/>
+        <Route exact path='/Visual-Gita/intro/blew-conchshell' element={<GitaSummary data={one.BGCounchshell}/>}/>
+        
+        
         </Routes>
+
+
     </div>
   )
 }
