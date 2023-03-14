@@ -26,7 +26,7 @@ function BlockQuote({ data }) {
                 </div>
                     <div className={`${data.textFontSize} border border-red-400 p-6 font-mplus leading-relaxed bg-yellow-300 rounded-lg text-center font-[700] text-gray-800 `}>
                         {data.text.map( (text, i) => {
-                            return (<span className={`${text.split(':')[1]}`} key={i}>{text.split(':')[0]}
+                            return (<span className={`font-normal ${text.split(':')[1]}`} key={i}>{text.split(':')[0]}
                                         {data.textLineBreak ? <br/> : ''}
                                     </span>)
                         })}

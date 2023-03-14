@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         mplus: ["M PLUS Rounded 1c"],
         },
+      backgroundImage: {
+        'gita': "url('../src/Images/bg-chapter-1.png')",
+      },
     },
   },
   plugins: [],

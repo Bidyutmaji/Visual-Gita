@@ -46,7 +46,11 @@ export const GitaDhyanam = {
     title : "Gita Dhyanam",
     sloka: ["pārthāya pratibodhitāḿ bhagavatā nārāyaṇena svayaḿ", "vyāsena grathitāḿ purāṇa-muninā madhye mahābhārate",
             "advaitāmṛta-varṣiṇīḿ bhagavatīm aṣṭādaśādhyāyinīḿ", "amba tvām anusandadhāmi bhagavad-gīte bhava-dveṣiṇīm"],
-    slokaLIneBreak: true
+    slokaLIneBreak: true,
+
+    textTitle : "Translation",
+    text:[" O Bhagavad-gita, thou hast been instructed to Arjuna, the son of Prtha by the Lord Himself and afterwards thee were included within the Mahabharata by the ancient sage Vyasa.",  "Thy eighteen divine chapters are a shower of the immortal nectar of the wisdom of the Absolute.", "O mother, destroyer of man's rebirth into the darkness of this mortal world, upon thee I meditate."],
+    slokaLIneBreak:false
 }
 
 export const IntroQnA = {
@@ -61,24 +65,27 @@ export const IntroQnA = {
 
 export const BGOneToSix = {
     chapters: '1 to 6',
+    header : ['Chapter: bg-gray-400 rounded-l-full', 'Name: bg-gray-300 rounded-none ',
+                'Verse: bg-gray-200 rounded-none ', 'About: bg-gray-100 rounded-r-full '],
+    textSize : 'text-sm lg:text-base',
     data : [
-        {chapter: 1, name: "Observing the Armies on the Battlefield of Kurukṣetra", verse:47, about:"Lamentaion",
-        colorC:  "bg-rose-400", colorN:  "bg-rose-300", colorV:  "bg-rose-200", colorA: "bg-rose-100", colorB: "border-rose-300"},
+        {item1: 1, item2:  "Observing the Armies on the Battlefield of Kurukṣetra", item3: 47, item4: "Lamentaion",
+        color1:  "bg-rose-400", color2:  "bg-rose-300", color3:  "bg-rose-200", color4: "bg-rose-100", colorB: "border-rose-300"},
 
-        {chapter: 2, name: "Contents of the Gītā Summarized",verse:72, about:"Identity",
-        colorC:  "bg-violet-400", colorN:  "bg-violet-300", colorV:  "bg-violet-200", colorA: "bg-violet-100", colorB: "border-violet-300"},
+        {item1: 2, item2:  "Contents of the Gītā Summarized",item3: 72, item4: "Identity",
+        color1:  "bg-violet-400", color2:  "bg-violet-300", color3:  "bg-violet-200", color4: "bg-violet-100", colorB: "border-violet-300"},
 
-        {chapter: 3, name: "Karma Yoga", verse:43, about:"Dutys",
-        colorC:  "bg-purple-400", colorN:  "bg-purple-300", colorV:  "bg-purple-200", colorA: "bg-purple-100", colorB: "border-purple-300"},
+        {item1: 3, item2:  "Karma Yoga", item3: 43, item4: "Dutys",
+        color1:  "bg-purple-400", color2:  "bg-purple-300", color3:  "bg-purple-200", color4: "bg-purple-100", colorB: "border-purple-300"},
 
-        {chapter: 4, name: "Transcendental Knowledge", verse:42, about:"Know",
-        colorC:  "bg-blue-400", colorN:  "bg-blue-300", colorV:  "bg-blue-200", colorA: "bg-blue-100", colorB: "border-blue-300"},
+        {item1: 4, item2:  "Transcendental Knowledge", item3: 42, item4: "Know",
+        color1:  "bg-blue-400", color2:  "bg-blue-300", color3:  "bg-blue-200", color4: "bg-blue-100", colorB: "border-blue-300"},
         
-        {chapter: 5, name: "Karma-yoga - Action in Kṛṣṇa Consciousness", verse:29, about:"Result",
-        colorC:  "bg-teal-400", colorN:  "bg-teal-300", colorV:  "bg-teal-200", colorA: "bg-teal-100", colorB: "border-teal-300"},
+        {item1: 5, item2:  "Karma-yoga - Action in Kṛṣṇa Consciousness", item3: 29, item4: "Result",
+        color1:  "bg-teal-400", color2:  "bg-teal-300", color3:  "bg-teal-200", color4: "bg-teal-100", colorB: "border-teal-300"},
 
-        {chapter: 6, name: "Dhyāna-yoga ", verse:47, about:"Meditate & Connect",
-        colorC:  "bg-green-400", colorN:  "bg-green-300", colorV:  "bg-green-200", colorA: "bg-green-100", colorB: "border-green-300"},
+        {item1: 6, item2:  "Dhyāna-yoga ", item3: 47, item4: "Meditate & Connect",
+        color1:  "bg-green-400", color2:  "bg-green-300", color3:  "bg-green-200", color4: "bg-green-100", colorB: "border-green-300"},
     ],
     title: "YOU",
     image: "https://img.mensxp.com/media/content/2015/Sep/foreveraloneproblemsheader_1441445294.jpg",
@@ -87,24 +94,27 @@ export const BGOneToSix = {
 
 export const BGSevenToTwelve = {
     chapters: '7 to 13',
+    header : ['Chapter: bg-gray-400 rounded-l-full', 'Name: bg-gray-300 rounded-none ',
+                'Verse: bg-gray-200 rounded-none ', 'About: bg-gray-100 rounded-r-full '],
+    textSize : 'text-sm lg:text-base',
     data : [
-        {chapter: 7, name: "Knowledge of the Absolute", verse:30, about:"Krsna & His Energies",
-        colorC:  "bg-red-400", colorN:  "bg-red-300", colorV:  "bg-red-200", colorA: "bg-red-100", colorB: "border-red-300"},
+        {item1: 7, item2:  "Knowledge of the Absolute", item3: 30, item4: "Krsna & His Energies",
+        color1:  "bg-red-400", color2:  "bg-red-300", color3:  "bg-red-200", color4: "bg-red-100", colorB: "border-red-300"},
 
-        {chapter: 8, name: "Attaining the Supreme",verse:28, about:"How to Reach",
-        colorC:  "bg-violet-400", colorN:  "bg-violet-300", colorV:  "bg-violet-200", colorA: "bg-violet-100", colorB: "border-violet-300"},
+        {item1: 8, item2:  "Attaining the Supreme",item3: 28, item4: "How to Reach",
+        color1:  "bg-violet-400", color2:  "bg-violet-300", color3:  "bg-violet-200", color4: "bg-violet-100", colorB: "border-violet-300"},
 
-        {chapter: 9, name: "The Most Confidential Knowledge", verse:34, about:"Bhakti",
-        colorC:  "bg-purple-400", colorN:  "bg-purple-300", colorV:  "bg-purple-200", colorA: "bg-purple-100", colorB: "border-purple-300"},
+        {item1: 9, item2:  "The Most Confidential Knowledge", item3: 34, item4: "Bhakti",
+        color1:  "bg-purple-400", color2:  "bg-purple-300", color3:  "bg-purple-200", color4: "bg-purple-100", colorB: "border-purple-300"},
 
-        {chapter: 10, name: "The Opulence of the Absolute", verse:42, about:"How to Remember",
-        colorC:  "bg-blue-400", colorN:  "bg-blue-300", colorV:  "bg-blue-200", colorA: "bg-blue-100", colorB: "border-blue-300"},
+        {item1: 10, item2:  "The Opulence of the Absolute", item3: 42, item4: "How to Remember",
+        color1:  "bg-blue-400", color2:  "bg-blue-300", color3:  "bg-blue-200", color4: "bg-blue-100", colorB: "border-blue-300"},
         
-        {chapter: 11, name: "The Universal Form", verse:55, about:"3 Forms",
-        colorC:  "bg-teal-400", colorN:  "bg-teal-300", colorV:  "bg-teal-200", colorA: "bg-teal-100", colorB: "border-teal-300"},
+        {item1: 11, item2:  "The Universal Form", item3: 55, item4: "3 Forms",
+        color1:  "bg-teal-400", color2:  "bg-teal-300", color3:  "bg-teal-200", color4: "bg-teal-100", colorB: "border-teal-300"},
 
-        {chapter: 12, name: "Devotional Service", verse:22, about:"Who is Dear to",
-        colorC:  "bg-green-400", colorN:  "bg-green-300", colorV:  "bg-green-200", colorA: "bg-green-100", colorB: "border-green-300"},
+        {item1: 12, item2:  "Devotional Service", item3: 22, item4: "Who is Dear to",
+        color1:  "bg-green-400", color2:  "bg-green-300", color3:  "bg-green-200", color4: "bg-green-100", colorB: "border-green-300"},
     ],
     title: "Krsna",
     image: "https://qph.cf2.quoracdn.net/main-qimg-2a071aa4137e65f05398f094aa030f8d-lq",
@@ -113,24 +123,27 @@ export const BGSevenToTwelve = {
 
 export const BGthirteenToEighteen = {
     chapters: '13 to 18',
+    header : ['Chapter: bg-gray-400 rounded-l-full', 'Name: bg-gray-300 rounded-none ',
+                'Verse: bg-gray-200 rounded-none ', 'About: bg-gray-100 rounded-r-full '],
+    textSize : 'text-sm lg:text-base',
     data : [
-        {chapter: 13, name: " Nature, the Enjoyer and Consciousness", verse:34, about:"Witness",
-        colorC:  "bg-red-400", colorN:  "bg-red-300", colorV:  "bg-red-200", colorA: "bg-red-100", colorB: "border-red-300"},
+        {item1: 13, item2:  " Nature, the Enjoyer and Consciousness", item3: 34, item4: "Witness",
+        color1:  "bg-red-400 ", color2:  "bg-red-300", color3:  "bg-red-200", color4: "bg-red-100", colorB: "border-red-300"},
 
-        {chapter: 14, name: "The Three Modes of Material Nature",verse:27, about:"Prison Bars",
-        colorC:  "bg-violet-400", colorN:  "bg-violet-300", colorV:  "bg-violet-200", colorA: "bg-violet-100", colorB: "border-violet-300"},
+        {item1: 14, item2:  "The Three Modes of Material Nature",item3: 27, item4: "Prison Bars",
+        color1:  "bg-violet-400", color2:  "bg-violet-300", color3:  "bg-violet-200", color4: "bg-violet-100", colorB: "border-violet-300"},
 
-        {chapter: 15, name: "The Yoga of the Supreme Person", verse:20, about:"Release Plan",
-        colorC:  "bg-purple-400", colorN:  "bg-purple-300", colorV:  "bg-purple-200", colorA: "bg-purple-100", colorB: "border-purple-300"},
+        {item1: 15, item2:  "The Yoga of the Supreme Person", item3: 20, item4: "Release Plan",
+        color1:  "bg-purple-400", color2:  "bg-purple-300", color3:  "bg-purple-200", color4: "bg-purple-100", colorB: "border-purple-300"},
 
-        {chapter: 16, name: "The Divine and Demoniac Natures", verse:24, about:"Inmates",
-        colorC:  "bg-blue-400", colorN:  "bg-blue-300", colorV:  "bg-blue-200", colorA: "bg-blue-100", colorB: "border-blue-300"},
+        {item1: 16, item2:  "The Divine and Demoniac Natures", item3: 24, item4: "Inmates",
+        color1:  "bg-blue-400", color2:  "bg-blue-300", color3:  "bg-blue-200", color4: "bg-blue-100", colorB: "border-blue-300"},
         
-        {chapter: 17, name: "The Divisions of Faith", verse:28, about:"The Complexity",
-        colorC:  "bg-teal-400", colorN:  "bg-teal-300", colorV:  "bg-teal-200", colorA: "bg-teal-100", colorB: "border-teal-300"},
+        {item1: 17, item2:  "The Divisions of Faith", item3: 28, item4: "The Complexity",
+        color1:  "bg-teal-400", color2:  "bg-teal-300", color3:  "bg-teal-200", color4: "bg-teal-100", colorB: "border-teal-300"},
 
-        {chapter: 18, name: "The Perfection of Renunciation", verse:78, about:"Surrender",
-        colorC:  "bg-green-400", colorN:  "bg-green-300", colorV:  "bg-green-200", colorA: "bg-green-100", colorB: "border-green-300"},
+        {item1: 18, item2:  "The Perfection of Renunciation", item3: 78, item4: "Surrender",
+        color1:  "bg-green-400", color2:  "bg-green-300", color3:  "bg-green-200", color4: "bg-green-100", colorB: "border-green-300"},
     ],
     title: "Prison House",
     image: "https://trillium-health.ca/wp-content/uploads/2020/05/CRT-Image.jpg",
