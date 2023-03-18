@@ -2,37 +2,27 @@ import React, { useEffect }  from 'react'
 import { Link } from 'react-router-dom'
 
 function BGSideBar( { chapterClick, setChapterClick } ) {
-
-  const path = window.location.pathname.split('/')
-  const ButtonActive = path[path.length-1]
-  console.log(ButtonActive)
-
   
-  const handleSideMenu = ( chapterClick ) => {
-    if (chapterClick) {
-      setChapterClick(false)
-    }
-    else{
-      setChapterClick(true)
-    }
-}
+  const hashPath = window.location.hash
+
   return (
     <div className='bg-yellow-100 rounded-xl text-center px-5 h-full shadow-slate-100 shadow-lg overflow-y-auto py-2'>
       
-      <div className='sticky top-1 my-1 py-1 px-2 bg-orange-300 rounded-lg border-4 border-rose-300'>
+      <div className='sticky top-1 mt-1 mb-2 py-1 px-2 bg-orange-300 rounded-lg border-2 border-orange-500'>
         <p className='text-lg font-semibold text-gray-800'> Bhagabad Gita </p>
       </div>
 
       <div className='flex flex-col space-y-2'>
         <Link  to={'/intro'}>
-          <p onClick={() => handleSideMenu(chapterClick)} 
-          className={`border border-orange-400 py-1 my-[3px] ${ ButtonActive === "intro" ? 'bg-orange-300' : 'bg-orange-200'} rounded-lg cursor-pointer`}>
+          <p onClick={() => setChapterClick(!chapterClick)} 
+          className={`border border-orange-400 py-1 my-[3px] ${ hashPath.includes('intro') ? 'bg-orange-300' : 'bg-orange-200'} rounded-lg cursor-pointer`}>
             Intro
           </p>
         </Link>
 
         <Link  to={'/one'}>
-          <p className='border border-orange-400 py-1 my-[3px] bg-orange-200 rounded-lg cursor-pointer'>Chpater: 1</p>
+          <p onClick={() => setChapterClick(!chapterClick)}
+          className={`border border-orange-400 py-1 my-[3px] ${ hashPath.includes('one') ? 'bg-orange-300' : 'bg-orange-200'} rounded-lg cursor-pointer`}>Chpater: 1</p>
         </Link>
 
         <p className='border border-orange-400 py-1 my-[3px] bg-orange-200 rounded-lg cursor-pointer'>Chpater: 2</p>

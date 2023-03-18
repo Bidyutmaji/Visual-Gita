@@ -10,7 +10,7 @@
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 9px;
+  width: 5px;
   height: 81%;
 }
 

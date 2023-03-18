@@ -1,13 +1,8 @@
 import { IoIosArrowRoundForward } from 'react-icons/io'
-import { BsFillCloudHailFill, BsLink45Deg } from 'react-icons/bs'
-import { GiBattleGear, GiMilitaryAmbulance } from 'react-icons/gi'
+import { BsLink45Deg } from 'react-icons/bs'
+import { GiBattleGear } from 'react-icons/gi'
 import { AiFillCrown } from 'react-icons/ai'
 import { MdOutlineMilitaryTech } from 'react-icons/md'
-
-
-
-
-
 
 
 
@@ -18,7 +13,7 @@ export const bg1_1 = {
 
     textTitle : "Dhṛtarāṣṭra uvāca",
     textTitleFontSize: "text-3xl lg:text-4xl",
-    text: ["dharma-kṣetre kuru-kṣetre:text-orange-700", "samavetā yuyutsavaḥ", 
+    text: ["dharma-kṣetre kuru-kṣetre:text-emerald-700", "samavetā yuyutsavaḥ", 
             "māmakāḥ pāṇḍavāś caiva", "kim akurvata sañjaya"],
     textFontSize: "text-2xl lg:text-3xl ",
     textLineBreak: true

@@ -17,14 +17,14 @@ function BGHeader( {setSideBar, sideBar } ) {
         
       
         <div className='flex items-center justify-center w-full'>
-            <Link to={'/'}>
+            <Link to={'/intro'}>
                 <p className='text-center text-3xl font-bold text-gray-900'>
                     Visual Gita
                     <span className='text-xs pl-1'>BETA</span>
                 </p>
             </Link>
         </div>
-        <button onClick={() => handleSideMenu(sideBar)} className='w-auto flex lg:hidden items-center justify-center px-2 lg:py-1 rounded-full bg-yellow-300 my-1 mx-2'>
+        <button onClick={() => setSideBar(!sideBar)} className='w-auto flex lg:hidden items-center justify-center px-2 lg:py-1 rounded-full bg-yellow-300 my-2 mx-2'>
             <RiMenu4Fill className='font-bold text-2xl'/> MENU
         </button>
     </div>

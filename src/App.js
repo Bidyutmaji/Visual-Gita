@@ -12,28 +12,17 @@ import routes from './Route'
 
 function App() {
     const [sideBar, setSideBar] = useState(false)
-    const [sideCLass, setSideClass] = useState('')
-    const [nextPage, setNextPage] = useState('translate-x-0')
-    const [previousPage, setPreviousPage] = useState('')
-    const [NFButtonClick, setNFButtonClick] = useState(false)
+    const [sideClass, setSideClass] = useState('')
     const [chapterClick, setChapterClick] = useState(false)
-    
-    useEffect(() => {
-        let path_name = window.location.hash.split('#')[1]
-        setNextPage(routes[routes.indexOf(path_name)+1])
-        setPreviousPage(routes[routes.indexOf(path_name)-1])
-        
-        // console.log(previousPage, path_name, nextPage)
-        // console.log(chapterClick);
 
-        setSideClass(sideBar ? 'translate-x-0' : '-translate-x-full left-0')
-        // if (chapterClick && sideCLass == "flex"){
-        //     setSideClass('hidden')
-        // }
-        // console.log(sideBar, sideCLass, chapterClick)
-        setNFButtonClick(false)
-        // setChapterClick(false)
-    }, [sideBar, NFButtonClick])
+    useEffect(() => {
+        if (sideClass==='translate-x-0'){
+            setSideClass('-translate-x-full left-0')
+        }
+        else {
+            setSideClass('translate-x-0')
+        }
+    }, [sideBar, chapterClick])
     
     let show = 'translate-x-0';
     let hidden  = '-translate-x-full left-0' ;
@@ -41,31 +30,31 @@ function App() {
     
     return (
         <Router>
-        <div className='p-3 flex flex-row h-screen w-full bg-yellow-50'>
+        <div className='p-3 flex flex-row h-screen max-h-screen w-full bg-yellow-50'>
 
             {/* Sidebar */}
-            <div className={`${sideCLass} fixed w-auto lg:relative lg:w-1/5 lg:transform-none z-40 flex h-full mr-3`}>
+            <div className={`${sideClass} transition duration-500 fixed w-auto lg:relative lg:w-1/5 lg:transform-none z-40 flex h-full mr-2`}>
                 <BGSideBar chapterClick={chapterClick} setChapterClick={setChapterClick}/>
                 
             </div>
 
-            <div className='h-full w-full flex flex-col mt-3  bg-rgba(0, 0, 0, 0.85)'>
+            <div className='h-full w-full flex flex-col bg-rgba(0, 0, 0, 0.85)'>
             
                 {/* Header */}
-                <div className='h-[8%] w-full'>
+                <div className='h-[7%] w-full'>
                     <BGHeader setSideBar={setSideBar} sideBar={sideBar}/>
                 </div>
 
                 {/* Body */}
 
                 {/* Visual screen */}
-                <div className='w-full h-[82%] mb-3'>
+                <div className='w-full h-[82%]'>
                     <VisualPage/>
                 </div>
 
                 {/* Footer with button */}
-                <div className='w-full h-[10%]'>
-                    <BGFotter previousPage={previousPage} nextPage={nextPage} setNFButtonClick={setNFButtonClick}/>
+                <div className='fixed bottom-0 w-full lg:w-4/5'>
+                    <BGFotter/>
                 </div>
             
             </div>

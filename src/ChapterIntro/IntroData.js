@@ -5,7 +5,7 @@ export const GuruPranam = {
     textTitle : "Sri Guru Pranama",
     textTitleFontSize: "text-3xl lg:text-4xl",
     text: ["om ajnana-timirandhasya", " jnananjana-salakaya ", 
-            "cakshur unmilitam yena ", "tasmai sri-gurave namah :text-orange-800"],
+            "cakshur unmilitam yena ", "tasmai sri-gurave namah :text-emerald-700"],
     textFontSize: "text-2xl lg:text-3xl ",
     textLineBreak: true
 }

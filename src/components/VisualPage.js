@@ -15,6 +15,7 @@ import { IntroRoute, OneRoute } from '../Route';
 import BGChapterEnd from './BGChapterEnd';
 import ImageTitle from '../ChapterOne/ImageTitle';
 import SlokaChat from './SlokaChat';
+import SlokaImage from '../ChapterIntro/SlokaImage';
 
 
 function VisualPage() {
@@ -22,7 +23,7 @@ function VisualPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-      if (window.location.hash === '') {
+      if (window.location.hash === '' ) {
         navigate('/intro')
       }
   })
@@ -32,7 +33,7 @@ function VisualPage() {
     <div className='h-full bg-white rounded-2xl p-2 '>
         <Routes>
           <Route exact path='/intro' element={<BGChapterIndex data={IntroRoute} chapter=' Bhagabad Gita: Intro'/>}/>
-          <Route exact path='/intro/guru-pronam' element={<BlockQuote data={all.GuruPranam}/>}/>
+          <Route exact path='/intro/guru-pronam' element={<SlokaImage data={all.GuruPranam}/>}/>
           <Route exact path='/intro/gita-great-life' element={<BlockQuote data={all.LessonOne}/>}/>
           <Route exact path='/intro/manual-of-life' element={<BlockQuote data={all.LessonTwo}/>}/>
           <Route exact path='/intro/clarity-of-lfe' element={<BlockQuote data={all.LessonThree}/>}/>
@@ -48,10 +49,10 @@ function VisualPage() {
           <Route exact path='/intro/conclusion' element={<BGChapterEnd data={all.EndConclusion}/>}/>
         
         
-        <Route exact path='/one' element={<BGChapterIndex data={OneRoute} chapter=' Bhagabad Gita: Intro'/>}/>
+        <Route exact path='/one' element={<BGChapterIndex data={OneRoute} chapter=' BG : Chpater 1'/>}/>
         <Route exact path='/one/mahabharat' element={<ImageTitle data={one.KuruDynasty}/>}/>
         <Route exact path='/one/mahabharat-map' element={<ImageTitle data={one.MahabharatMap}/>}/>
-        <Route exact path='/one/sloka-1' element={<BlockQuote data={one.bg1_1}/>}/>
+        <Route exact path='/one/sloka-1' element={<SlokaImage data={one.bg1_1}/>}/>
         <Route exact path='/one/1-translate' element={<BlockQuote data={one.bg1_1_trans}/>}/>
         <Route exact path='/one/lesson-1' element={<BlockQuote data={one.Lesson1One}/>}/>
         <Route exact path='/one/1-2' element={<SlokaChat data={one.One1_2}/>}/>
