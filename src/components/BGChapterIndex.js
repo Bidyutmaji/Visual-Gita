@@ -9,12 +9,11 @@ function BGChapterIndex( {data, chapter } ) {
         <div className='flex-1 w-[85%] justify-center items-center mt-9'>
             {data.map( (item, i) => {
                 return (<Link to={item} key={i}>
-                            <span className='lg:inline-block block text-center px-2 py-[5px] mx-2 my-1 font-mplus lg:font-medium font-normal text-green-900 bg-green-300 border border-emerald-500 rounded-lg lg:text-xl' key={i}>
-                                <BiBookmarkHeart className='inline-block mr-2'/>
+                            <span className='lg:inline-block block text-center px-2 py-[5px] mx-2 my-1 font-mplus lg:font-medium font-normal text-green-800 bg-green-200 border border-emerald-400 rounded-lg lg:text-xl' key={i}>
+                                <BiBookmarkHeart className='inline-block mr-2 text-rose-800'/>
                                 {item.split('/').pop().split('-').join(' ').toUpperCase()} 
                             </span>
                         </Link>)
-                
             })}
 
         </div>

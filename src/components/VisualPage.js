@@ -1,5 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route,useNavigate } from "react-router-dom";
+import LoadingBar from 'react-top-loading-bar'
+
 import BlockQuote from '../ChapterIntro/BlockQuote';
 
 import * as all from '../ChapterIntro/IntroData'
@@ -19,6 +21,7 @@ import SlokaImage from '../ChapterIntro/SlokaImage';
 
 
 function VisualPage() {
+  const [progress, setProgress] = useState(100)
 
   const navigate = useNavigate();
 
@@ -31,6 +34,7 @@ function VisualPage() {
 
   return (
     <div className='h-full bg-white rounded-2xl p-2 '>
+        {/* <LoadingBar color="#f11946" progress={progress} onLoaderFinished={() => setProgress(0)} /> */}
         <Routes>
           <Route exact path='/intro' element={<BGChapterIndex data={IntroRoute} chapter=' Bhagabad Gita: Intro'/>}/>
           <Route exact path='/intro/guru-pronam' element={<SlokaImage data={all.GuruPranam}/>}/>
