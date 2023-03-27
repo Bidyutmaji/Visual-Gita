@@ -30,7 +30,7 @@ function BGFotter( { } ) {
         </Link>
 
         <motion.h1 
-          animate={{ opacity: 1, scale: 1, x:[50, 150, 50] }}
+          animate={{ opacity: 1, scale: 1 }}
           transition={{
             type: "spring",
             damping: 10,
