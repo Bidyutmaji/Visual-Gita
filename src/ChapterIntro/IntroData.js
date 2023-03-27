@@ -6,6 +6,9 @@ export const GuruPranam = {
     textTitleFontSize: "text-3xl lg:text-4xl",
     text: ["om ajnana-timirandhasya", " jnananjana-salakaya ", 
             "cakshur unmilitam yena ", "tasmai sri-gurave namah :text-emerald-700"],
+    tooltipText:'I offer my respectful obeisances unto my spiritual master, \
+                who has opened my eyes, which were blinded by the darkness of ignorance, \
+                with the torchlight of knowledge.',
     textFontSize: "text-2xl lg:text-3xl ",
     textLineBreak: true
 }

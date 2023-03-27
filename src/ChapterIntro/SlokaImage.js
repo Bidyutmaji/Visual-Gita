@@ -1,5 +1,6 @@
 import React from 'react'
 import { TfiQuoteRight } from 'react-icons/tfi'
+import Tooltip from '../components/Tooltip'
 
 function SlokaImage({ data }) {
 
@@ -22,6 +23,7 @@ function SlokaImage({ data }) {
                 <h1 className={`pb-5 font-semibold ${data.textTitleFontSize} text-gray-700`}>{data.textTitle}</h1>
                 
                 <blockquote className='flex flex-col justify-center items-center mx-7'>
+                    <Tooltip message={data.tooltipText}>
                     <div className={`${data.textFontSize} border border-teal-400 p-6 font-mplus leading-relaxed bg-green-50 rounded-lg text-center font-[700] text-gray-800 space-y-2`}>
                         {data.text.map( (text, i) => {
                             return (<p className={`px-2 font-light ${text.split(':')[1]} bg-rose-100 rounded-full`} key={i}>{text.split(':')[0]}
@@ -29,6 +31,7 @@ function SlokaImage({ data }) {
                                     </p>)
                         })}
                     </div>
+                        </Tooltip>
                 </blockquote>
             </figure>
             </div>

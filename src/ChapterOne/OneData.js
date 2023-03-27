@@ -15,6 +15,7 @@ export const bg1_1 = {
     textTitleFontSize: "text-3xl lg:text-4xl",
     text: ["dharma-kṣetre kuru-kṣetre:text-emerald-700", "samavetā yuyutsavaḥ", 
             "māmakāḥ pāṇḍavāś caiva", "kim akurvata sañjaya"],
+    tooltipText:"O Sañjaya, after my sons and the sons of Pāṇḍu assembled in the place of pilgrimage at Kurukṣetra, desiring to fight, what did they do?",
     textFontSize: "text-2xl lg:text-3xl ",
     textLineBreak: true
 }
