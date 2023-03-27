@@ -22,12 +22,9 @@ function SlokaImage({ data }) {
                 <h1 className={`pb-5 font-semibold ${data.textTitleFontSize} text-gray-700`}>{data.textTitle}</h1>
                 
                 <blockquote className='flex flex-col justify-center items-center mx-7'>
-                {/* <div className='mb-[-15px] z-0 w-[50] bg-yellow-300 p-2 border border-red-400 rounded-lg'>
-                    <TfiQuoteRight size={30} className=' text-gray-700'/>
-                </div> */}
-                    <div className={`${data.textFontSize} border border-teal-400 p-6 font-mplus leading-relaxed bg-rose-50 rounded-lg text-center font-[700] text-gray-800 space-y-2`}>
+                    <div className={`${data.textFontSize} border border-teal-400 p-6 font-mplus leading-relaxed bg-green-50 rounded-lg text-center font-[700] text-gray-800 space-y-2`}>
                         {data.text.map( (text, i) => {
-                            return (<p className={`px-2 font-light ${text.split(':')[1]} bg-green-50 rounded-full`} key={i}>{text.split(':')[0]}
+                            return (<p className={`px-2 font-light ${text.split(':')[1]} bg-rose-100 rounded-full`} key={i}>{text.split(':')[0]}
                                         {data.textLineBreak ? <br/> : ''}
                                     </p>)
                         })}
