@@ -61,7 +61,7 @@ function VisualPage() {
         <Route exact path='/one/lesson-1' element={<BlockQuote data={one.Lesson1One}/>}/>
         <Route exact path='/one/1-2' element={<SlokaChat data={one.One1_2}/>}/>
         <Route exact path='/one/2-3' element={<SlokaChat data={one.One3_6}/>}/>
-        <Route exact path='/one/4-11' element={<SlokaChat data={one.One7_11}/>}/>
+        <Route exact path='/one/4-11' element={<SlokaChat data={one.One4_11}/>}/>
         <Route exact path='/one/lesson-2' element={<BlockQuote data={one.Lesson1Two}/>}/>
         <Route exact path='/one/sloka-12' element={<BlockQuote data={one.SlokaOne12}/>}/>
         <Route exact path='/one/lesson-3' element={<BlockQuote data={one.Lesson1Three}/>}/>

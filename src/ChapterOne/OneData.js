@@ -110,19 +110,19 @@ export const MahabharatMap = {
 }
 
 export const One1_2 = {
-    part: [{ image: "https://www.meghnaunni.com/wp-content/uploads/2020/05/dhritharashtra-mahabharat.jpg", BGColor: 'bg-violet-100',
+    part: [{ image: "https://www.meghnaunni.com/wp-content/uploads/2020/05/dhritharashtra-mahabharat.jpg", BGColor: 'bg-amber-50',
                 para: [ {SNo: '1.1', sloka:'(māmakāḥ)', slokaTrans:'my party (sons)', text:'Answer : BG 1.2 to BG 1.13', color:'yellow', textIcon: <BsLink45Deg className='inline-block mr-2'/>},
                         {SNo: '', sloka:'(pāṇḍavāś)', slokaTrans:' the sons of Pāṇḍu', text:'Answer : BG 1.2 to BG 1.13', color:'indigo', textIcon: <BsLink45Deg className='inline-block mr-2'/>},
                     ],
-                arrowIcon : <IoIosArrowRoundForward className='inline-block text-4xl'/>
+                arrowIcon : <IoIosArrowRoundForward className='inline-block text-4xl rotate-90 lg:rotate-0'/>
                 },
                         
-            { image: "https://www.oshonews.com/wp-content/uploads/2018/04/Sanjay-and-Dhritarashtra.jpg", BGColor: 'bg-fuchsia-100',
+            { image: "https://www.oshonews.com/wp-content/uploads/2018/04/Sanjay-and-Dhritarashtra.jpg", BGColor: 'bg-amber-50',
             para: [ 
                     {SNo: '1.2', sloka:'dṛṣṭvā tu', slokaTrans:'pāṇḍavānīkaṁ', text:'Soldiers of the Pāṇḍavas', color:'lime', textIcon: <GiBattleGear className='inline-block mr-2'/>,},
                     {SNo: '', sloka:'duryodhanas ... abravīt', slokaTrans:'', text:'King Duryodhana spoke ...', color:'pink', textIcon: <AiFillCrown className='inline-block mr-2'/>,},
                 ],
-            arrowIcon : <IoIosArrowRoundForward className='inline-block text-4xl'/>
+            arrowIcon : <IoIosArrowRoundForward className='inline-block text-4xl rotate-90 lg:rotate-0'/>
 
             },
         
@@ -132,7 +132,7 @@ export const One1_2 = {
 export const One3_6 = {
     part: [         
         {
-            image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-fuchsia-100',
+            image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-amber-50',
             para: [ 
                 {SNo: '1.2', sloka:'1 Aksauhini Sena', 
                 slokaTrans:'(218990)', text:<span> 21,870 Chariot | 21,870 Elephents <br/> 65,600 Cavalry | 1,09,650 Infantry</span>,
@@ -140,35 +140,36 @@ export const One3_6 = {
             }
             
             ],
-            arrowIcon :  <IoIosArrowRoundForward className='inline-block text-4xl'/>
+            arrowIcon :  <IoIosArrowRoundForward className='inline-block text-4xl rotate-90 lg:rotate-0'/>
         },
         
         {
-                image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-fuchsia-100',
+                image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-amber-50',
                 para: [ 
                     {SNo: '1.3', sloka:'paśyaitāṁ pāṇḍu-putrāṇām', slokaTrans:'', text:'behold ... the sons of Pāṇḍu', color:'lime', textIcon: <GiBattleGear className='inline-block mr-2'/>,},
                     {SNo: '', sloka:'  mahatīṁ camūm ...', slokaTrans:'', text:'expertly arranged great army ...', color:'orange', textIcon: <GiBattleGear className='inline-block mr-2'/>,},
                 ],
-            arrowIcon : <IoIosArrowRoundForward className='inline-block text-4xl'/>
+            arrowIcon : <IoIosArrowRoundForward className='inline-block text-4xl rotate-90 lg:rotate-0'/>
         },
 
         ]
 }
 
-export const One7_11 = {
+export const One4_11 = {
     part: [               
         {
-            image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-fuchsia-100',
+            image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-amber-50',
             para: [ 
-                {SNo: <span>1.4 <br/> | <br/> 1.6 </span>, sloka:'pointes out the strengths of the opposite army; named the great warriors', slokaTrans:'(14 + 5)', text:'Drupada, Virata, Abhimanyu, King of Kashi, Purujit, Kuntibhoja etc.', color:'teal', textIcon: <MdOutlineMilitaryTech className='inline-block mr-2'/>,},
+                {SNo: <span className='lg:flex flex-col'>1.4 <span className='hidden lg:block'>|</span> <span className='lg:hidden'>-</span> 1.6 </span>, 
+                sloka:'pointes out the strengths of the opposite army; named the great warriors', slokaTrans:'(14 + 5)', text:'Drupada, Virata, Abhimanyu, King of Kashi, Purujit, Kuntibhoja etc.', color:'teal', textIcon: <MdOutlineMilitaryTech className='inline-block mr-2'/>,},
             
             ],
             arrowIcon : null
         },      
             {
-                image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-fuchsia-100',
+                image: "https://static.wikia.nocookie.net/villains/images/8/83/Duryodhana_.jpg", BGColor: 'bg-amber-50',
                 para: [ 
-                    {SNo: <span>1.7 <br/> | <br/> 1.11 </span>, sloka:'Named great warriors on his side and cheered them', 
+                    {SNo: <span className='lg:flex flex-col'>1.7 <span className='hidden lg:block'>|</span> <span className='lg:hidden'>-</span> 1.11 </span>, sloka:'Named great warriors on his side and cheered them', 
                     slokaTrans:'(7 - count)', text:'Duryodhana, Bhishma, Dronacharya, Kripacharya, Ashwatthama, Karna etc.', color:'gray', textIcon: <MdOutlineMilitaryTech className='inline-block mr-2'/>,},
                 
                 ],
@@ -215,4 +216,6 @@ export const BGCounchshell = {
     title: "Conchshell",
     image: "https://qph.cf2.quoracdn.net/main-qimg-f16a270ce7b15e665156e7d3d8a8ec93-lq",
     imageCaption : "The Conchshells blown by warrior.",
+    imageWidth: "lg:w-[45%]",
+    tableWidth: "lg:w-[60%]"
 }

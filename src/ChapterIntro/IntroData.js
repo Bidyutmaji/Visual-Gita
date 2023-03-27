@@ -90,6 +90,8 @@ export const BGOneToSix = {
     title: "YOU",
     image: "https://img.mensxp.com/media/content/2015/Sep/foreveraloneproblemsheader_1441445294.jpg",
     imageCaption : "The first six chapter of Gita talks about You [who am i?]",
+    imageWidth: "lg:w-[25%]",
+    tableWidth: "lg:w-[75%]"
 }
 
 export const BGSevenToTwelve = {
@@ -119,6 +121,8 @@ export const BGSevenToTwelve = {
     title: "Krsna",
     image: "https://qph.cf2.quoracdn.net/main-qimg-2a071aa4137e65f05398f094aa030f8d-lq",
     imageCaption : "The 7 to 12 chapter of Gita talks about Krsna [who is Krsna?]",
+    imageWidth: "lg:w-[25%]",
+    tableWidth: "lg:w-[75%]"
 }
 
 export const BGthirteenToEighteen = {
@@ -148,6 +152,8 @@ export const BGthirteenToEighteen = {
     title: "Prison House",
     image: "https://trillium-health.ca/wp-content/uploads/2020/05/CRT-Image.jpg",
     imageCaption : "The 13 to 18 chapter of Gita talks about Prison House [How we escaped it?]",
+    imageWidth: "lg:w-[25%]",
+    tableWidth: "lg:w-[75%]"
 }
 
 export const LessonFour = {

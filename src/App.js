@@ -53,7 +53,7 @@ function App() {
                 </div>
 
                 {/* Footer with button */}
-                <div className='fixed bottom-0 w-full lg:w-4/5'>
+                <div className='fixed bottom-1 w-full lg:w-4/5'>
                     <BGFotter/>
                 </div>
             
